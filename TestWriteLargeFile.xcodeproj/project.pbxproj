@@ -16,6 +16,7 @@
 		CB4C18391ACA9BBB00CC6829 /* TestWriteLargeFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C18381ACA9BBB00CC6829 /* TestWriteLargeFileTests.m */; };
 		CB4C18441ACA9BDD00CC6829 /* AASTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C18431ACA9BDD00CC6829 /* AASTool.m */; };
 		CB4C18461ACA9C1B00CC6829 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB4C18451ACA9C1B00CC6829 /* test.mp3 */; };
+		CB4C18481ACA9F1800CC6829 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CB4C18471ACA9F1800CC6829 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CB4C18421ACA9BDD00CC6829 /* AASTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASTool.h; sourceTree = "<group>"; };
 		CB4C18431ACA9BDD00CC6829 /* AASTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASTool.m; sourceTree = "<group>"; };
 		CB4C18451ACA9C1B00CC6829 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		CB4C18471ACA9F1800CC6829 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CB4C18451ACA9C1B00CC6829 /* test.mp3 */,
+				CB4C18471ACA9F1800CC6829 /* README.md */,
 				CB4C18421ACA9BDD00CC6829 /* AASTool.h */,
 				CB4C18431ACA9BDD00CC6829 /* AASTool.m */,
 				CB4C18201ACA9BBB00CC6829 /* AppDelegate.h */,
@@ -230,6 +233,7 @@
 			files = (
 				CB4C18251ACA9BBB00CC6829 /* ViewController.m in Sources */,
 				CB4C18221ACA9BBB00CC6829 /* AppDelegate.m in Sources */,
+				CB4C18481ACA9F1800CC6829 /* README.md in Sources */,
 				CB4C181F1ACA9BBB00CC6829 /* main.m in Sources */,
 				CB4C18441ACA9BDD00CC6829 /* AASTool.m in Sources */,
 			);
@@ -424,6 +428,7 @@
 				CB4C183E1ACA9BBB00CC6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4C183F1ACA9BBB00CC6829 /* Build configuration list for PBXNativeTarget "TestWriteLargeFileTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				CB4C18411ACA9BBB00CC6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
